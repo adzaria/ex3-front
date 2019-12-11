@@ -1,4 +1,4 @@
-# Front et back séparé dans des repos différents + async await
+# Front et back séparés dans des repos différents
 
 Lorsque le projet devient trop gros, il convient de séparer radicalement le front et le back. Le front fait alors des requêtes vers le back (chez nous vers localhost:8080/ ) mais ils sont sur des repos différents. Le front peut alors soit exister sur son serveur propre (c'est le cas ici, un mini serveur sert le front), soit carrément être compilé et mis à disposition comme n'importe quel fichier sur un hébergeur ...	
 
